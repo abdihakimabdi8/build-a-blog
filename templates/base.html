@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jig Jiga Herald</title>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <style>
+      </style>
+    </head>
+    <body>
+        <h1>
+        </h1>
+    <div id="logo">
+    <img src=http://www.jigjigaherald.com/wp-content/uploads/2016/07/original-logos_2016_Jul_8606-578f2e6f24b28-e1469003587589.jpg>
+
+    </div>
+    <div id="ad"><img src=http://www.wardheernews.com/wp-content/uploads/2016/02/banner-dahabshill.jpg>
+    <div id="ad1"><img src=http://www.wardheernews.com/wp-content/uploads/2016/02/banner-ethiopian-airlines.jpg></div>  </div></div>
+
+    <main>
+    <div id="navbar">
+                <ul class="naviga">
+                        <li><a href="/">Home</a></li>
+                        <li>News</li>
+                        <li>Opinion</li>
+                        <li>Entertainment</li>
+                        <li>Contact</li>
+                    </ul>
+
+                </div>
+                    <div id="news">
+
+                    <article>
+                        <h1>News</h1>
+                    </article>
+                    <ul style="list-style-type:none">
+                    {% block content %}
+
+                    <p>{{ title }}</p><br>
+                    <p>{{ body}}</p>
+                    {% endblock %}
+                </ul>
+
+</body>
+</html>
